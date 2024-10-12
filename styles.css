@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+ body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .middle {
+            border-collapse: collapse;
+            border: 1px solid black;
+            margin: 1px auto;
+			width:500px;
+			height:250px;
+        }
+
+        .middle td {
+            border: 1px solid black;
+            padding: 1px;
+        }
+ .t-image{
+	margin:0;
+	padding:0;
+ }
