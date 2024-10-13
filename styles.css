@@ -1,18 +1,43 @@
 /*  your css code here. If applicable */
- body{
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
+ /* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-        .middle {
-            border-collapse: collapse;
-            border: 1px solid black;
-            margin: 1px auto;
-			width:500px;
-			height:250px;
-        }
+/* Styling for all tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 500px;
+}
 
-        .middle td {
-            padding: 1px;
-        }
- 
+td {
+    padding: 1px;
+    border: 1px solid black;
+    text-align: left; /* Default alignment */
+}
+
+/* Center the heading */
+h1 {
+    text-align: center;
+}
+
+/* Specific table styling */
+.middle td.center {
+    text-align: center;
+}
+
+.middle td.right {
+    text-align: right;
+}
+
+/* Green and Blue Backgrounds for Table 3 */
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
